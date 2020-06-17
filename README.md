@@ -1,3 +1,3 @@
 # Time Guardian
 
-A Flutter application by Jan Schulte.
+https://play.google.com/store/apps/details?id=com.janschulte.stopwatch_with_julian
