@@ -1,0 +1,39 @@
+name: stopwatch_with_julian
+description: A new Flutter application.
+
+version: 1.0.0+4
+#Die Zahl hinter der Version update ich mit jedem Update, welches ich für die App erstelle
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    # Die Localization sorgt dafür, dass Flutter die vom System präferierte Sprache erkennen kann
+  flutter_localizations:
+    sdk: flutter
+
+  # Hier werden alle verwendeten Plug-Ins geholt
+
+  cupertino_icons: ^0.1.2
+
+  provider: ^4.0.4
+  audioplayers: ^0.12.1
+  flutter_phoenix: ^0.1.0
+  wakelock: ^0.1.4+1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+#Hier werden alle Assets, die das Projekt genötigt, geladen
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - locale/i18n_en.json
+    - locale/i18n_de.json
+
